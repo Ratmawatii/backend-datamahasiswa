@@ -1,0 +1,36 @@
+{
+  "name": "database-mahasiswa-backend",
+  "version": "1.0.0",
+  "description": "Backend REST API Sistem Informasi Data Mahasiswa STUDENTHUB",
+  "main": "dist/server.js",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js"
+  },
+  "keywords": [
+    "studenthub",
+    "student-management",
+    "rest-api"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.3",
+    "pg": "^8.16.3"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.3",
+    "@types/jsonwebtoken": "^9.0.10",
+    "@types/node": "^22.15.30",
+    "@types/pg": "^8.15.4",
+    "tsx": "^4.19.4",
+    "typescript": "^5.8.3"
+  }
+}
